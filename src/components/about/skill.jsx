@@ -6,14 +6,7 @@ import { faLink } from "@fortawesome/free-solid-svg-icons";
 import "./styles/skill.css";
 
 const Skill = (props) => { 		
-    const { name, image, description, proficiency} = props;
-
-    const proficiencyPercentage = {
-        Beginner: '33%',
-        Intermediate: '66%',
-        Advanced: '100%',
-      }[proficiency];
-    
+    const { name, image, description, proficiency, proficiencyPercentage} = props;
 
     return (
         <React.Fragment>
@@ -23,6 +16,7 @@ const Skill = (props) => {
                 </div>
                 <h3 className="skill-title">{name}</h3>
                 <p className="skill-description">{description}</p>
+                <p>{proficiencyPercentage}</p>
                 <div className="skill-proficiency">
                     <div className="proficiency-bar">
                     <div

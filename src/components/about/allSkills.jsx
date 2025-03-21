@@ -16,6 +16,7 @@ const AllSkills = () => {
 						name={skill.name}
 						description={skill.description}
 						proficency={skill.proficiency}
+						proficiencyPercentage={skill.proficiencyPercentage}
 					/>
 				</div>
 			))}

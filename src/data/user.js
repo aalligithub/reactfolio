@@ -117,6 +117,7 @@ const INFO = {
 		image: cSharpLogo,
 		description:
 		  "Proficient in building enterprise-level applications using C#. I've used it extensively for backend development, API integrations, and Windows-based applications.",
+		proficiencyPercentage: "54%",
 		proficiency: "Advanced",
 	},
 
@@ -125,6 +126,7 @@ const INFO = {
 		image: dotnetCoreLogo,
 		description:
 		  "Experienced in developing scalable and high-performance web applications using .NET Core. I've worked on RESTful APIs, microservices, and database integrations.",
+		proficiencyPercentage: "12%",
 		proficiency: "Advanced",
 	  },
 	],
