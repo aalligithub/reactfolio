@@ -1,3 +1,6 @@
+import { css } from "styled-components";
+import AllProjects from "../components/projects/allProjects";
+
 const javascriptLogo = "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png";
 const pythonLogo = "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/python/python.png";
 const djangoLogo = "https://img.icons8.com/?size=100&id=IuuVVwsdTi2v&format=png&color=000000";
@@ -82,19 +85,29 @@ const INFO = {
 		{
 			title: "E Samab",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logos: ["https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",],
+				"The National Business Licensing Portal is an internet platform managed by the Secretariat of the Regulatory Reform and Business Environment Improvement Council. It provides transparent and accessible information about licensing requirements, prerequisites, costs, and processing times for all businesses in the country. My Role Developed and maintained the module related to water source management, ensuring compliance with national regulations. Designed and implemented features to streamline the issuance of water-related business permits.",
+			logos: [
+				cSharpLogo,
+				postmanLogo,
+				restApi,
+			],
 			linkText: "View Project",
 			link: "https://des.wrm.ir/Entrances/EntranceAll",
 		},
 
 		{
-			title: "Sitab",
+			title: "Many More Projects...",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logos: ["https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",],
-			linkText: "View Project",
-			link: "https://github.com",
+				"Other than these projects I have worked on many more projects from small to large scale, learn more about my experiences in About",
+			logos: [
+				djangoLogo,
+				pythonLogo,
+				reactLogo,
+				cssLogo,
+				cppLogo,
+			],
+			linkText: "About",
+			link: "/About",
 		},
 	],
 
