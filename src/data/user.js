@@ -1,3 +1,20 @@
+const javascriptLogo = "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png";
+const pythonLogo = "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/python/python.png";
+const djangoLogo = "https://img.icons8.com/?size=100&id=IuuVVwsdTi2v&format=png&color=000000";
+const sqlServerLogo = "https://img.icons8.com/?size=100&id=laYYF3dV0Iew&format=png&color=000000";
+const cSharpLogo = "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/csharp/csharp.png";
+const dotnetCoreLogo = "https://img.icons8.com/?size=100&id=1BC75jFEBED6&format=png&color=000000";
+const jqueryLogo = "https://img.icons8.com/?size=100&id=XH6rVkDQCZ9U&format=png&color=000000";
+const htmlLogo = "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/html/html.png";
+const bootstrapLogo = "https://img.icons8.com/?size=100&id=PndQWK6M1Hjo&format=png&color=000000";
+const reactLogo = "https://img.icons8.com/?size=100&id=asWSSTBrDlTW&format=png&color=000000";
+const cssLogo = "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/css/css.png";
+const postmanLogo = "https://img.icons8.com/?size=100&id=EPbEfEa7o8CB&format=png&color=000000";
+const cppLogo = "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/cpp/cpp.png";
+const restApi = "https://img.icons8.com/?size=100&id=5zy5xtVDT01A&format=png&color=000000";
+
+const workplaceLink = "";
+
 const INFO = {
 	main: {
 		title: "Ali Karimpour",
@@ -22,9 +39,11 @@ const INFO = {
 	  },
 
 	about: {
-		title: "I’m Ali Karimpour I live in Sri Lanka, where I design the future.",
+		title: "I’m Ali Karimpour",
 		description:
-			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
+			"I have extensive experience working on enterprise-level projects operating at a national scale, which are used daily by thousands of users. My contributions include database management, scalability improvements, and system maintenance, ensuring optimal performance and reliability. Alongside my professional work, I have also dedicated time to freelance projects, personal tools, and innovative side projects, showcasing my passion for continuous learning and problem-solving.",
+		workplaceText: "I currently work fulltime at ",
+		workplaceLink: <a href='https://iranestekhdam.ir/company/ogr4tm-tahlilgaran'>Tahlilgaran System Zagros</a>,
 	},
 
 	articles: {
@@ -35,46 +54,48 @@ const INFO = {
 
 	projects: [
 		{
-			title: "Project 1",
+			title: "Samab",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+			"Samab is a large-scale enterprise software system designed to manage and optimize the nation's water resources. Since its launch in 2002, it has been instrumental in streamlining water source protection, resource utilization, and customer management for millions of users across the country. Developed and maintained core features to ensure seamless operation at a national scale. Optimized database performance and scalability to handle large datasets and high user traffic. Implemented user-friendly interfaces and robust backend systems for efficient resource management.",
 			logos:[
-				"https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-				"https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+				dotnetCoreLogo,
+				sqlServerLogo,
+				jqueryLogo,
+				javascriptLogo,
+				bootstrapLogo,
+				htmlLogo,
+			],
+			linkText: "View Project",
+			link: "https://samab.znrw.ir/",
+		},
+
+		{
+			title: "Hafari",
+			description:
+				"Enterprise software managing Excavation Permits of the whole nation.",
+			logos: [
+				dotnetCoreLogo,
+				sqlServerLogo,
+				javascriptLogo,
+				bootstrapLogo,
+				htmlLogo,
+				restApi,
 			],
 			linkText: "View Project",
 			link: "https://github.com",
 		},
 
 		{
-			title: "Project 2",
+			title: "E Samab",
 			description:
 				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
 			logos: ["https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",],
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://des.wrm.ir/Entrances/EntranceAll",
 		},
 
 		{
-			title: "Project 3",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logos: ["https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",],
-			linkText: "View Project",
-			link: "https://github.com",
-		},
-
-		{
-			title: "Project 4",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logos: ["https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",],
-			linkText: "View Project",
-			link: "https://github.com",
-		},
-
-		{
-			title: "Project 5",
+			title: "Sitab",
 			description:
 				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
 			logos: ["https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",],

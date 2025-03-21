@@ -167,6 +167,7 @@ const Homepage = () => {
 						</div>
 
 						<div className="homepage-projects">
+							<h3>Projects I have contributed to</h3>
 							<AllProjects />
 						</div>
 

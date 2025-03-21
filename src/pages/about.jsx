@@ -48,6 +48,9 @@ const About = () => {
 								<div className="subtitle about-subtitle">
 									{INFO.about.description}
 								</div>
+								<div className="workplace" style={{marginTop: "15px"}}>
+									{INFO.about.workplaceText}{INFO.about.workplaceLink}
+								</div>
 							</div>
 
 							<div className="about-left-side">

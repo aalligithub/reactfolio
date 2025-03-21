@@ -13,7 +13,7 @@ const Project = (props) => {
 			<div className="project">
 				<Link to={link}>
 					<div className="project-container">
-						<div className="project-logo" style={{display: "flex", gap: "10px", alignItems: "center"}}>
+						<div className="project-logo" style={{display: "flex", gap: "5px", alignItems: "center"}}>
 							{logos.map((logo, index) => (
 								<img src={logo} alt={`logo-${index}`} className="logo-image" key={index} style={{width: "40px", height: "auto"}}/>
 							))}
