@@ -13,7 +13,7 @@ const postmanLogo = "https://img.icons8.com/?size=100&id=EPbEfEa7o8CB&format=png
 const cppLogo = "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/cpp/cpp.png";
 const restApi = "https://img.icons8.com/?size=100&id=5zy5xtVDT01A&format=png&color=000000";
 
-const workplaceLink = "";
+const workplaceLink = "'https://iranestekhdam.ir/company/ogr4tm-tahlilgaran'";
 
 const INFO = {
 	main: {
@@ -30,6 +30,7 @@ const INFO = {
 		instagram: "https://instagram.com/aalli_k",
 		stackoverflow: "https://stackoverflow.com/users/11687785/ali-karimpour?tab=profile",
 		facebook: "https://facebook.com/",
+		telegram: "https://t.me/AALLIGRAM",
 	},
 
 	homepage: {
@@ -40,16 +41,9 @@ const INFO = {
 
 	about: {
 		title: "I’m Ali Karimpour",
-		description:
-			"I have extensive experience working on enterprise-level projects operating at a national scale, which are used daily by thousands of users. My contributions include database management, scalability improvements, and system maintenance, ensuring optimal performance and reliability. Alongside my professional work, I have also dedicated time to freelance projects, personal tools, and innovative side projects, showcasing my passion for continuous learning and problem-solving.",
+		description: "Throughout my career, I've had the opportunity to work on impactful, enterprise-level projects that operate at a national scale and are used by thousands daily. My contributions span database management, scalability enhancements, and system maintenance, ensuring these projects run smoothly and efficiently. Beyond my professional work, I enjoy taking on freelance projects and building personal tools, which allow me to explore new technologies and solve unique challenges.",
 		workplaceText: "I currently work fulltime at ",
-		workplaceLink: <a href='https://iranestekhdam.ir/company/ogr4tm-tahlilgaran'>Tahlilgaran System Zagros</a>,
-	},
-
-	articles: {
-		title: "I'm passionate about pushing the boundaries of what's possible and inspiring the next generation of innovators.",
-		description:
-			"Chronological collection of my long-form thoughts on programming, leadership, product design, and more.",
+		workplaceLink: <a href={workplaceLink}>Tahlilgaran System Zagros</a>,
 	},
 
 	projects: [
@@ -72,7 +66,7 @@ const INFO = {
 		{
 			title: "Hafari",
 			description:
-				"Enterprise software managing Excavation Permits of the whole nation.",
+				"A nationwide enterprise software solution designed to manage excavation permits and oversee associated companies. This system ensures compliance with regulations, streamlines permit issuance, and enhances oversight of excavation activities across the country.",
 			logos: [
 				dotnetCoreLogo,
 				sqlServerLogo,
@@ -82,7 +76,7 @@ const INFO = {
 				restApi,
 			],
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "",
 		},
 
 		{
@@ -102,6 +96,24 @@ const INFO = {
 			linkText: "View Project",
 			link: "https://github.com",
 		},
+	],
+
+	skills: [
+	{		
+		name: "C#",
+		image: cSharpLogo,
+		description:
+		  "Proficient in building enterprise-level applications using C#. I've used it extensively for backend development, API integrations, and Windows-based applications.",
+		proficiency: "Advanced",
+	},
+
+	{
+		name: ".NET Core",
+		image: dotnetCoreLogo,
+		description:
+		  "Experienced in developing scalable and high-performance web applications using .NET Core. I've worked on RESTful APIs, microservices, and database integrations.",
+		proficiency: "Advanced",
+	  },
 	],
 };
 

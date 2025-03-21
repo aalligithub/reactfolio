@@ -49,7 +49,11 @@ const About = () => {
 									{INFO.about.description}
 								</div>
 								<div className="workplace" style={{marginTop: "15px"}}>
-									{INFO.about.workplaceText}{INFO.about.workplaceLink}
+									<h4>{INFO.about.workplaceText}{INFO.about.workplaceLink}</h4>
+								</div>
+
+								<div className="development-tools">
+									<h4>{INFO.skills.name}</h4>
 								</div>
 							</div>
 
