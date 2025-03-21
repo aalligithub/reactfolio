@@ -52,11 +52,7 @@ const Contact = () => {
 							<a href={`mailto:${INFO.main.email}`}>
 								{INFO.main.email}
 							</a>
-							. I make an effort to respond to all messages within
-							24 hours, although it may take me longer during busy
-							periods. Alternatively, you can use the contact form
-							on my website to get in touch. Simply fill out the
-							required fields and I'll get back to you as soon as
+							. I make an effort to respond to all messages and I'll get back to you as soon as
 							possible. Finally, if you prefer to connect on
 							social media, you can find me on{" "}
 							<a
@@ -64,10 +60,18 @@ const Contact = () => {
 								target="_blank"
 								rel="noreferrer"
 							>
-								{INFO.socials.instagram}
+								Instagram
 							</a>
 							. I post regular updates and engage with my
-							followers there, so don't hesitate to reach out.
+							followers there, or ultimately you can message me directly here {""}
+							<a
+								href={INFO.socials.telegram}
+								target="_blank"
+								rel="noreferrer"
+							>
+								Telegram
+							</a>
+							{""} don't hesitate to reach out.
 							Thanks again for your interest, and I look forward
 							to hearing from you!
 						</div>
