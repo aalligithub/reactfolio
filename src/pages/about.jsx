@@ -10,6 +10,7 @@ import INFO from "../data/user";
 import SEO from "../data/seo";
 
 import "./styles/about.css";
+import Allskills from "../components/about/allSkills";
 
 const About = () => {
 	useEffect(() => {
@@ -53,7 +54,7 @@ const About = () => {
 								</div>
 
 								<div className="development-tools">
-									<h4>{INFO.skills.name}</h4>
+									<Allskills/>
 								</div>
 							</div>
 

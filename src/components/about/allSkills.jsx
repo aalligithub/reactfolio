@@ -1,22 +1,21 @@
 import React from "react";
 
-import Project from "./project";
+import Skill from "./skill";
 
 import INFO from "../../data/user";
 
-import "./styles/allProjects.css";
+// import "./styles/allskill.css";
 
-const AllProjects = () => {
+const AllSkills = () => {
 	return (
-		<div className="all-projects-container">
-			{INFO.projects.map((project, index) => (
-				<div className="all-projects-project" key={index}>
-					<Project
-						logos={project.logos}
-						title={project.title}
-						description={project.description}
-						linkText={project.linkText}
-						link={project.link}
+		<div className="all-skill-container">
+			{INFO.skills.map((skill, index) => (
+				<div className="all-skills-skill" key={index}>
+					<Skill
+						image={skill.image}
+						name={skill.name}
+						description={skill.description}
+						proficency={skill.proficiency}
 					/>
 				</div>
 			))}
@@ -24,4 +23,4 @@ const AllProjects = () => {
 	);
 };
 
-export default AllProjects;
+export default AllSkills;
