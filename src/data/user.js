@@ -1,20 +1,20 @@
 import { css } from "styled-components";
 import AllProjects from "../components/projects/allProjects";
 
-const javascriptLogo = "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png";
-const pythonLogo = "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/python/python.png";
-const djangoLogo = "https://img.icons8.com/?size=100&id=IuuVVwsdTi2v&format=png&color=000000";
-const sqlServerLogo = "https://img.icons8.com/?size=100&id=laYYF3dV0Iew&format=png&color=000000";
-const cSharpLogo = "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/csharp/csharp.png";
-const dotnetCoreLogo = "https://img.icons8.com/?size=100&id=1BC75jFEBED6&format=png&color=000000";
-const jqueryLogo = "https://img.icons8.com/?size=100&id=XH6rVkDQCZ9U&format=png&color=000000";
-const htmlLogo = "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/html/html.png";
-const bootstrapLogo = "https://img.icons8.com/?size=100&id=PndQWK6M1Hjo&format=png&color=000000";
-const reactLogo = "https://img.icons8.com/?size=100&id=asWSSTBrDlTW&format=png&color=000000";
-const cssLogo = "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/css/css.png";
-const postmanLogo = "https://img.icons8.com/?size=100&id=EPbEfEa7o8CB&format=png&color=000000";
-const cppLogo = "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/cpp/cpp.png";
-const restApi = "https://img.icons8.com/?size=100&id=5zy5xtVDT01A&format=png&color=000000";
+import javascriptLogo from "./javascript.png"
+import pythonLogo from "./python.png";
+import djangoLogo from "./django.png";
+import sqlServerLogo from "./sqlServer.png";
+import cSharpLogo from "./csharp.png";
+import dotnetCoreLogo from "./dotnet.png";
+import jqueryLogo from "./jquery.webp";
+import htmlLogo from "./html.png";
+import bootstrapLogo from "./bootstrap.png";
+import reactLogo from "./react.webp";
+import cssLogo from "./css.webp";
+import postmanLogo from "./postman.png";
+import cppLogo from "./cpp.png";
+import restApi from "./restapi.png";
 
 const workplaceLink = "'https://iranestekhdam.ir/company/ogr4tm-tahlilgaran'";
 
