@@ -12,7 +12,15 @@ const Skill = (props) => {
         <React.Fragment>
             <div className="skill-card">
                 <div className="skill-logo">
-                    <img src={image} alt={`logo-${name}`} className="logo-image" />
+                    {image.map((image, index) => (
+                        <img src={image} alt={`logo-${index}`} className="logo-image" key={index}
+                          style={{
+                            width: "70px",
+                            height: "auto",
+                            padding: "5px",
+                            filter: "drop-shadow(1px 1.5px 3px rgb(160, 160, 160))", // Corrected syntax
+                          }}/>
+                    ))}
                 </div>
                 <h3 className="skill-title">{name}</h3>
                 <p className="skill-description">{description}</p>

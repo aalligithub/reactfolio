@@ -15,6 +15,20 @@ import cssLogo from "./css.webp";
 import postmanLogo from "./postman.png";
 import cppLogo from "./cpp.png";
 import restApi from "./restapi.png";
+import wpf from "./wpf.png";
+import netMVC from "./netMVC.jpg";
+import pineScript from "./pineScript.png";
+import unity from "./unity.svg";
+import requests from "./Requests-logo.png";
+import deeplearning from "./deeplearning.jpg";
+import kivy from "./kivy.png";
+import pandas from "./pandas.png";
+import flask from "./flask.png";
+import sqlite from "./sqlite.webp";
+import azure from "./microsoft-azure@2x.png";
+import github from "./github.png";
+import git from "./Git-logo.svg.png";
+import msTest from "./ms_test.png";
 
 const workplaceLink = "'https://iranestekhdam.ir/company/ogr4tm-tahlilgaran'";
 
@@ -113,23 +127,50 @@ const INFO = {
 
 	skills: [
 	{		
-		name: "C#",
-		image: cSharpLogo,
+		name: "C#, .NET Core, .NET Webforms, .Net MVC, WPF, Unity Game Engine and more",
+		image: [cSharpLogo, dotnetCoreLogo, wpf, netMVC, sqlServerLogo, unity],
 		description:
-		  "Proficient in building enterprise-level applications using C#. I've used it extensively for backend development, API integrations, and Windows-based applications.",
-		proficiencyPercentage: "54%",
+		  "Proficient in building enterprise-level applications using C# and the .NET ecosystem. I have extensive experience in backend development, API integrations, Windows-based applications, and game development using Unity. My work includes scalable solutions, database integrations, and performance optimization.",
+		proficiencyPercentage: "88%",
 		proficiency: "Advanced",
 	},
 
 	{
-		name: ".NET Core",
-		image: dotnetCoreLogo,
+		name: "Python. Django, RESTful API, Requests, AI, Webservices and more",
+		image: [pythonLogo, djangoLogo, restApi, requests, deeplearning, pandas, flask, kivy, sqlite, postmanLogo],
 		description:
-		  "Experienced in developing scalable and high-performance web applications using .NET Core. I've worked on RESTful APIs, microservices, and database integrations.",
-		proficiencyPercentage: "12%",
+		  "Experienced in developing scalable web applications using Django and Python. I have built RESTful APIs, microservices, and AI-driven solutions, including data normalization and model training. My expertise also includes creating custom tools and integrating third-party APIs for seamless functionality.",
+		proficiencyPercentage: "80%",
 		proficiency: "Advanced",
-	  },
-	],
+	},
+
+	{
+		name: "Web development, UI desing, Backend integrations and more",
+		image: [javascriptLogo, htmlLogo, cssLogo, reactLogo, jqueryLogo, bootstrapLogo,],
+		description:
+			"Skilled in creating modern, responsive, and user-friendly web interfaces. I specialize in frontend development using React, JavaScript, and Bootstrap, as well as backend integrations to ensure seamless functionality. My focus is on delivering intuitive and visually appealing designs that enhance user experience.",
+		proficiencyPercentage: "72%",
+		proficiency: "Advanced",
+	},
+
+	{
+		name: "Version Control and Software Testing",
+		image: [azure, git, github, msTest],
+		description:
+			"Experienced in version control systems like Git and GitHub, as well as Azure DevOps for collaborative development and CI/CD pipelines. Proficient in test-oriented development, including writing unit tests, integration tests, and automated testing frameworks to ensure code quality and reliability. My expertise includes maintaining robust version control workflows and implementing best practices for software testing.",
+		proficiencyPercentage: "100%",
+		proficiency: "Advanced",
+	},
+
+	{
+		name: "Custom solutions, whatever you might need",
+		image: [pineScript, cppLogo,],
+		description:
+			"If you need development for niche technologies like Pine Script or custom software solutions, I’m your go-to developer. I thrive on solving unique challenges and delivering tailored solutions that meet specific business requirements.",
+		proficiencyPercentage: "100%",
+		proficiency: "Advanced",
+	},
+   ],
 };
 
 export default INFO;
