@@ -158,7 +158,7 @@ const INFO = {
 		image: [azure, git, github, msTest],
 		description:
 			"Experienced in version control systems like Git and GitHub, as well as Azure DevOps for collaborative development and CI/CD pipelines. Proficient in test-oriented development, including writing unit tests, integration tests, and automated testing frameworks to ensure code quality and reliability. My expertise includes maintaining robust version control workflows and implementing best practices for software testing.",
-		proficiencyPercentage: "100%",
+		proficiencyPercentage: "90%",
 		proficiency: "Advanced",
 	},
 
